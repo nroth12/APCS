@@ -1,0 +1,79 @@
+Sample Run of student_runner_School.java:
+
+printing person:
+
+Doe, John
+
+
+printing student:
+
+Smithers, Sallie
+   Grade Level: 7
+   ID #: 1
+
+
+printing highschoolstudent:
+
+Smith, Bert
+   Grade Level: 11
+   ID #: 2
+   GPA: 3.67
+
+
+printing school: 
+
+Faculty: 
+Lovelace, Ada
+   Subject: Mathematics
+Einstein, Albert
+   Subject: Physics
+Hopper, Grace
+   Subject: Computer Science
+Turing, Alan
+   Subject: Mathematics
+Curie, Marie
+   Subject: Chemistry
+Madison, Dolly
+   Subject: Government
+Angelou, Maya
+   Subject: English Composition
+
+
+Student Body: 
+Finch, Jem
+   Grade Level: 11
+   ID #: 3
+   GPA: 3.4
+Finch, Scout
+   Grade Level: 4
+   ID #: 4
+Adams, Natalie
+   Grade Level: 11
+   ID #: 5
+   GPA: 2.4
+Radley, Boo
+   Grade Level: 12
+   ID #: 6
+   GPA: 1.7
+Finch, Atticus
+   Grade Level: 12
+   ID #: 7
+   GPA: 4.8
+Benes, Elaine
+   Grade Level: 9
+   ID #: 8
+Henry, Patrick
+   Grade Level: 11
+   ID #: 9
+
+
+
+just seniors: 
+Radley, Boo
+   Grade Level: 12
+   ID #: 6
+   GPA: 1.7
+Finch, Atticus
+   Grade Level: 12
+   ID #: 7
+   GPA: 4.8
