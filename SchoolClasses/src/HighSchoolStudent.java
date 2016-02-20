@@ -6,11 +6,11 @@ public class HighSchoolStudent extends Student{
 	// The first and last names and the level should be set by calling the
 	// constructor of the parent class. The GPA should be between 0 and 5 
 	// inclusive, otherwise set to 0.
-	public HighSchoolStudent(String fName, String lName, int gLevel, double gpa1)
+	public HighSchoolStudent(String fName, String lName, int gLevel, double inputGpa)
 	{
 		super(fName, lName, gLevel);
-		if(gpa >= 0 && gpa <= 5)
-			gpa = gpa1;
+		if(inputGpa >= 0 && inputGpa <= 5)
+			gpa = inputGpa;
 		else
 			gpa = 0;
 		
@@ -24,10 +24,7 @@ public class HighSchoolStudent extends Student{
 	//	Note: there are three spaces before "Grade Level: ...", "ID #: ..." and "GPA: ...".
 	public String toString()
 	{
-		String whole = "";
-		whole = lastName + ", " + firstName;
-		whole = whole + "\n   " + "Grade Level: " + getLevel();
-		whole = whole + "\n   " + "ID #: " + getId();
+		String whole = super.toString();
 		whole = whole + "\n   " + "GPA: " + gpa;
 		return whole;
 	}

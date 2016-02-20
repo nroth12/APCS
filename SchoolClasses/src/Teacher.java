@@ -17,7 +17,7 @@ public class Teacher extends Person{
 	// Note: there are three spaces before "Subject: ...".
 	public String toString()
 	{
-		String whole = lastName + ", " + firstName;
+		String whole = super.toString();
 		whole = whole + "\n   " + "Subject: " + subject;
 		return whole;
 	}

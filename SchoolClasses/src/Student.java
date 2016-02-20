@@ -1,8 +1,9 @@
 
 public class Student extends Person{
 	
-	private static int studentId;
+	private static int studentId = 1;
 	private int level;
+	private int id;
 	
 	// Constructor that accepts the first and last names and the student level.
 	// Student level should be assigned 0 if gLevel is not between 0 and 12 inclusive.
@@ -17,7 +18,7 @@ public class Student extends Person{
 			level = gLevel;
 		else
 			level = 0;
-		studentId = studentId;
+		id = studentId;
 		studentId++;
 	}
 	
@@ -25,11 +26,6 @@ public class Student extends Person{
 	public int getLevel()
 	{
 		return level;
-	}
-	
-	public int getId()
-	{
-		return studentId;
 	}
 
 	// Returns a three line String with Student info formatted as follows:
@@ -39,10 +35,9 @@ public class Student extends Person{
 	// Note: there are three spaces before "Grade Level: ..." and "ID #: ...".
 	public String toString()
 	{
-		String whole ="";
-		whole = lastName + ", " + firstName;
+		String whole = super.toString();
 		whole = whole + "\n   " + "Grade Level: " + level;
-		whole = whole + "\n   " + "ID #: " + studentId;
+		whole = whole + "\n   " + "ID #: " + id;
 		return whole;
 	}
 	
