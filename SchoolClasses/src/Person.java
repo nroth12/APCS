@@ -11,16 +11,6 @@ public class Person {
 		lastName = lName;
 	}
 	
-	public String getLastName()
-	{
-		return lastName;
-	}
-	
-	public String getFirstName()
-	{
-		return firstName;
-	}
-	
 	//Returns a string in the following format:
 	//lastName, firstName
 	public String toString()
